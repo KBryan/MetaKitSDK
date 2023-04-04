@@ -149,7 +149,6 @@ namespace MetaMask.Unity.Samples
             var request = new MetaMaskEthereumRequest
             {
                 Method = "eth_sendTransaction",
-                GasPrice = gasPrice,
                 Parameters = new[] { transactionParams }
             };
             
