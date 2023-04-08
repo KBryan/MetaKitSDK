@@ -23,10 +23,10 @@ namespace MetaMask.Unity.Samples
         /// <summary>Updates the target's position.</summary>
         private void Update()
         {
-            Vector3 targetPos = this.target.position;
-            float camZ = this._camera.transform.position.z;
-            targetPos = this._camera.ScreenToWorldPoint(Input.mousePosition + (Vector3.back * camZ)) * this.speed;
-            this.target.LookAt(targetPos, Vector3.up);
+         //   Vector3 targetPos = this.target.position;
+         //   float camZ = this._camera.transform.position.z;
+         //   targetPos = this._camera.ScreenToWorldPoint(Input.mousePosition + (Vector3.back * camZ)) * this.speed;
+         //   this.target.LookAt(targetPos, Vector3.up);
         }
 
         #endregion

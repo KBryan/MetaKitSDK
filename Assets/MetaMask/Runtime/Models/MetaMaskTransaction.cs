@@ -43,14 +43,14 @@ namespace MetaMask.Models
         /// </summary>
 
         [JsonProperty(PropertyName = "gas")]
-        public HexBigInteger GasLimit { get; set; }
+        public string GasLimit { get; set; }
 
         /// <summary>
         ///   QUANTITY - gas price provided by the sender in Wei.
         /// </summary>
 
         [JsonProperty(PropertyName = "gasPrice")]
-        public HexBigInteger GasPrice { get; set; }
+        public string GasPrice { get; set; }
 
         /// <summary>
         ///   QUANTITY - Max Fee Per Gas provided by the sender in Wei.
