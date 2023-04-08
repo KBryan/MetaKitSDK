@@ -158,7 +158,7 @@ namespace MetaMask.Unity.Samples
             {
                 foreach (ParticleSystem emitter in this.particle)
                 {
-                    emitter.Play();
+//                    emitter.Play();
                 }
 
                 StartCoroutine(ButtonClick(0.97f, this.timeToLerp, new Vector3(1.05f, 1.05f, 1.05f)));

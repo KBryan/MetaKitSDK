@@ -3,6 +3,7 @@ using System;
 using MetaMask.Models;
 using Nethereum.Hex.HexTypes;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using Web3Unity.Scripts.Library.Ethers.Contracts;
 using Web3Unity.Scripts.Library.Ethers.Providers;
 using Web3Unity.Scripts.Library.Ethers.Signers;
