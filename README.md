@@ -50,7 +50,7 @@ MetaMaskDemo.cs
             await MetaMaskUnity.Instance.Wallet.Request(request);
 
 ```
-## Create HdWallet via Nethereum
+## Create HdWallet
 
 ```csharp
 
