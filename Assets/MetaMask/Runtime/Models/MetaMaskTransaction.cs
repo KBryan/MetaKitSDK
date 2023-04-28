@@ -2,7 +2,6 @@
 using System.Text.Json;
 using System.Text.Json.Serialization;
 using Nethereum.Hex.HexTypes;
-using Nethereum.RPC.Eth.DTOs;
 using Newtonsoft.Json;
 
 namespace MetaMask.Models
@@ -112,9 +111,6 @@ namespace MetaMask.Models
         /// <summary>
         ///   Access list
         /// </summary>
-
-        [JsonProperty(PropertyName = "accessList")]
-        public List<AccessList> AccessList { get; set; }
 
     }
 }

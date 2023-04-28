@@ -106,9 +106,6 @@ namespace MetaMask.Models
         ///   Access list
         /// </summary>
 
-        [JsonProperty(PropertyName = "accessList")]
-        public List<AccessList> AccessList { get; set; }
-
         public object Clone()
         {
             return this.MemberwiseClone();
