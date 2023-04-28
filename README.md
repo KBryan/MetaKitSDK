@@ -6,7 +6,7 @@ MetaMask SDK and ChainSafe v2 for MetaVerse development.
 ## Create JSON RPC Provider
 
 ```csharp
-private JsonRpcProvider _provider; 
+        private JsonRpcProvider _provider; 
         private void Start()
         {
             _provider = new JsonRpcProvider("https://goerli.infura.io/v3/INFURA_API_KEY");
