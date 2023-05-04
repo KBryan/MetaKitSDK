@@ -17,7 +17,7 @@ namespace MetaMask.Unity.Samples
         private JsonRpcProvider _provider; 
         private void Start()
         {
-            _provider = new JsonRpcProvider("https://goerli.infura.io/v3/b574497921744232a0c128d304243fd1");
+            _provider = new JsonRpcProvider("https://goerli.infura.io/v3/ADD_INFURA_RPC");
         }
 
         #region Events
